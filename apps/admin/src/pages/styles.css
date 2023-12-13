@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@400;500;600&family=Montserrat:wght@600;700&display=swap');
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: '#F5F5F5';
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+*::-webkit-scrollbar-track {
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #999999;
+}
+
+* {
+  box-sizing: border-box;
+}
