@@ -7,9 +7,6 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "exports": {
-    "./components": "./components/index"
-  },
   "publishConfig": {
     "access": "public"
   },

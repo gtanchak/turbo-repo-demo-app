@@ -24,6 +24,9 @@ importers:
       '@repo/eslint-config':
         specifier: workspace:*
         version: link:packages/config-eslint
+      '@repo/typescript-config':
+        specifier: workspace:*
+        version: link:packages/config-typescript
       '@types/react':
         specifier: ^18.2.43
         version: 18.2.43
