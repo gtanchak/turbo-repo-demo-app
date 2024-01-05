@@ -2,7 +2,11 @@
 module.exports = {
   root: true,
   ignorePatterns: [".eslintrc.cjs"],
-  extends: ["@repo/eslint-config/index.js", "plugin:storybook/recommended"],
+  extends: [
+    "@repo/eslint-config/index.js",
+    "plugin:storybook/recommended",
+    "plugin:storybook/recommended"
+  ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     project: true,

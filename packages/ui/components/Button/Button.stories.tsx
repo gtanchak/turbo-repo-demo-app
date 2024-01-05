@@ -2,9 +2,25 @@ import * as React from "react";
 import { Meta, StoryObj } from "@storybook/react";
 import Button from ".";
 
-export default {
-  title: "Button",
+const meta = {
+  title: "Components/Button",
   component: Button,
-} as Meta;
+  tags: ["autodocs"],
+  parameters: {
+    layout: "centered",
+  },
+} satisfies Meta<typeof Button>;
 
-export const Primary: StoryObj<typeof Button> = (args) => <Button {...args} />;
+export default meta;
+
+type Story = StoryObj<typeof Button>;
+
+export const Buttons = (args: Story) => {
+  return (
+    <div>
+      <Button variant="contained" {...args}>
+        Primary
+      </Button>
+    </div>
+  );
+};
